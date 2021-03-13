@@ -1,0 +1,10 @@
+var a=2, b=1;
+result=--a- --b;
+document.write("<br>");
+document.write(result);
+result=--a- --b + ++b;
+document.write("<br>");
+document.write(result);
+result=--a- --b + ++b+b--;
+document.write("<br>");
+document.write(result);

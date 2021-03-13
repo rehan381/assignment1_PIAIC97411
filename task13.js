@@ -1,0 +1,10 @@
+var num=10;
+document.write("Results:");
+document.write("<br>");
+document.write("----------------------------------------");
+document.write("<br>");
+num=num+1;
+document.write("The Value of ++a is: " +num+ '');
+document.write("<br>");
+num=num-1;
+document.write("The Value of --a is: " +num+ '');
